@@ -93,7 +93,7 @@ if ( ! function_exists( 'insult_generator_shortcode' ) ) {
 
 		// Use baroque insults
 
-		if ( $type == 'baroque' ) {
+		if ( 'baroque' === $type ) {
 
 			$adjective_one = array( 'artless', 'bawdy', 'beslubbering', 'bootless', 'churlish', 'cockered', 'clouted', 'craven', 'currish', 'dankish', 'dissembling', 'droning', 'errant', 'fawning', 'fobbing', 'froward', 'frothy', 'gleeking', 'goatish', 'gorbellied', 'impertinent', 'infectious', 'jarring', 'loggerheaded', 'lumpish', 'mammering', 'mangled', 'mewling', 'paunchy', 'pribbling', 'puking', 'puny', 'qualling', 'rank', 'reeky', 'roguish', 'ruttish', 'saucy', 'spleeny', 'spongy', 'surly', 'tottering', 'unmuzzled', 'vain', 'venomed', 'villainous', 'warped', 'wayward', 'weedy', 'yeasty' );
 
@@ -104,7 +104,7 @@ if ( ! function_exists( 'insult_generator_shortcode' ) ) {
 
 		// Use boring modern insults. Needs work.
 
-		elseif ( $type == 'modern' ) {
+		elseif ( 'modern' === $type ) {
 
 			$adjective_one = array( 'smarmy', 'stinky', 'farty', 'cheese-toothed', 'common' );
 
@@ -116,7 +116,7 @@ if ( ! function_exists( 'insult_generator_shortcode' ) ) {
 
 		// Use insults from the movie 'Hook'
 
-		elseif ( $type == 'pan' || $type == 'hook' || $type == 'peterpan' || $type == 'peter' ) {
+		elseif ( 'pan' === $type || 'hook' === $type || 'peterpan' === $type || 'peter' === $type ) {
 
 			$adjective_one = array( 'boil-dripping', 'beefy', 'fart-sniffing', 'slug-slimed', 'pinheaded', 'two-toned', 'zebra-headed', 'slime-coated', 'pimple-farmin\'', 'paramecium-brained' );
 
@@ -128,14 +128,13 @@ if ( ! function_exists( 'insult_generator_shortcode' ) ) {
 
 		// Prepend 'fucking' to the insult
 
-		if ( $dirty == 'yes' ) {
+		if ( 'yes' === $dirty ) {
 
 			return 'fucking ' . $adjective_one[array_rand($adjective_one)] . ' ' . $adjective_two[array_rand($adjective_two)] . ' ' . $noun[array_rand($noun)];
 
 		} else {
 
-			return $adjective_one[array_rand($adjective_one)] . ' ' . $adjective_two[array_rand($adjective_two)] . ' ' .
-				$noun[array_rand($noun)];
+			return $adjective_one[array_rand($adjective_one)] . ' ' . $adjective_two[array_rand($adjective_two)] . ' ' . $noun[array_rand($noun)];
 
 		}
 
