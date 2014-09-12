@@ -44,4 +44,4 @@ Here are a few example combinations for each of the four insult types:
 
 * dirty: `[insult dirty="yes"]` or `[insult dirty="no"]`. If yes, it will prepend the word "fucking" to the insult.
 
-*  type: `[insult type="baroque"]` or `[insult type="hook"]` or `[insult type="modern"]`. This will use different arrays of insult combinations, depending on the one you select. Defaults to baroque insults, naturally.
+*  type: `[insult type="baroque"]` or `[insult type="hook"]` or `[insult type="modern"]` or `[insult type="python"]`. This will use different arrays of insult combinations, depending on the one you select. Defaults to baroque insults, naturally.
