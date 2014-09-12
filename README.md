@@ -19,7 +19,7 @@ Insult Generator Shortcode
   * stinky toilet-breathed ass-captain
   * cheese-toothed common pig
 
-* Hook
+* Hook ( as in, the movie 'Hook' )
 
   * pimple-farmin' lying, crying, spying, prying finger bandage
   * boil-dripping scab-picked bubble-butt
