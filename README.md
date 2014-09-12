@@ -1,7 +1,7 @@
 Insult Generator Shortcode
 ==========================
 
-### Generates insults for you in three flavors:
+### Generates insults for you in four flavors:
 
 * Baroque
 
