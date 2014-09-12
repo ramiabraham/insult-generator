@@ -279,6 +279,58 @@ function ra_insult_generator_callback( $atts, $content = null ) {
 
 	}
 
+	# And now for something completely different
+	if ( 'python' === $atts['type'] ){
+		$adjective_one = array(
+			'empty-headed',
+			'malodorous',
+			'silly',
+			'snotty-faced',
+			'vacuous',
+			'philistine',
+			'loathsome',
+			'lousy',
+			'blackballing',
+			'bleeding',
+			'so-called',
+			'woody',
+			'tinny',
+			'festering'
+		);
+		
+		$adjective_two = array(
+			'elderberry-smelling',
+			'coffee-nosed',
+			'stupid',
+			'non-creative',
+			'spotty',
+			'hypocrtitical',
+			'whining',
+			'stinking',
+			'purulent',
+			'blind',
+			'naughty'
+			
+		);
+		
+		$noun = array(
+			'animal food trough wiper',
+			'hamster',
+			'English pig-dog',
+			'son of a silly person',
+			'heap of parrot droppings',
+			'pervert',
+			'git',
+			'garbage',
+			'excrement',
+			'Freemason',
+			'bignose',
+			'bat',
+			'private part',
+			'chemist'
+		);
+		
+	}
 	// Build the insult.
 	$insult = array(
 		$adjective_one[mt_rand( 0, count( $adjective_one ) - 1 )],
