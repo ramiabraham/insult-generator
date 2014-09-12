@@ -5,8 +5,6 @@ Insult Generator Shortcode
 
 * Baroque
 
-Examples:
-
   * dissembling dread-bolted strumpet
   * mammering fool-born fustilarian
   * mangled flap-mouthed coxcomb
@@ -21,16 +19,12 @@ Examples:
   * stinky toilet-breathed ass-captain
   * cheese-toothed common pig
 
-Examples:
-
 * Hook
 
   * pimple-farmin' lying, crying, spying, prying finger bandage
   * boil-dripping scab-picked bubble-butt
   * fart-sniffing camel-cake week old maggot burger with everything on it and flies on the side
   * two-toned cheesy lewd, crude, rude, bag of pre-chewed food dude
-
-Example:
 
 ### Usage:
 
