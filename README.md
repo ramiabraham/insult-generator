@@ -8,6 +8,12 @@ Insult Generator Shortcode
 Examples:
 
   * dissembling dread-bolted strumpet
+  * mammering fool-born fustilarian
+  * mangled flap-mouthed coxcomb
+  * gleeking swag-bellied apple-john
+  * cockered tickle-brained giglet
+  * mewling bat-fowling death-token
+  * warped spur-galled gudgeon
 
 * Modern
 
@@ -21,6 +27,8 @@ Examples:
 
   * pimple-farmin' lying, crying, spying, prying finger bandage
   * boil-dripping scab-picked bubble-butt
+  * fart-sniffing camel-cake week old maggot burger with everything on it and flies on the side
+  * two-toned cheesy lewd, crude, rude, bag of pre-chewed food dude
 
 Example:
 
