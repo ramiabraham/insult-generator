@@ -7,20 +7,20 @@ Insult Generator Shortcode
 
 Examples:
 
-** dissembling dread-bolted strumpet
+  * dissembling dread-bolted strumpet
 
 * Modern
 
-** smarmy contrarian dick
-** stinky toilet-breathed ass-captain
-** cheese-toothed common pig
+  * smarmy contrarian dick
+  * stinky toilet-breathed ass-captain
+  * cheese-toothed common pig
 
 Examples:
 
 * Hook
 
-** pimple-farmin' lying, crying, spying, prying finger bandage
-** boil-dripping scab-picked bubble-butt
+  * pimple-farmin' lying, crying, spying, prying finger bandage
+  * boil-dripping scab-picked bubble-butt
 
 Example:
 
