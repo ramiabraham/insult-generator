@@ -27,10 +27,13 @@ if ( ! function_exists( 'insult_generator_shortcode' ) ) {
 
 	function insult_generator_shortcode( $atts, $content = null ) {
 
-		extract(shortcode_atts(array(
-					'type'    => '',
-					'dirty' => ''
-				), $atts));
+		$atts = shortcode_atts(
+			array(
+				'type'  => '',
+				'dirty' => '',
+			),
+			$atts
+		);
 
 		// Baroque by default yo
 
@@ -195,7 +198,7 @@ if ( ! function_exists( 'insult_generator_shortcode' ) ) {
 
 		// Use boring modern insults. Needs work.
 
-		if ( 'modern' === $type ) {
+		if ( 'modern' === $atts['type'] ) {
 
 			$adjective_one = array(
 				'smarmy',
@@ -228,7 +231,7 @@ if ( ! function_exists( 'insult_generator_shortcode' ) ) {
 		}
 
 		// Use insults from the movie 'Hook'
-		if ( 'pan' === $type || 'hook' === $type || 'peterpan' === $type || 'peter' === $type ) {
+		if ( 'pan' === $atts['type'] || 'hook' === $atts['type'] || 'peterpan' === $atts['type'] || 'peter' === $atts['type'] ) {
 
 			$adjective_one = array(
 				'boil-dripping',
@@ -270,14 +273,22 @@ if ( ! function_exists( 'insult_generator_shortcode' ) ) {
 
 		}
 
-		$output = $adjective_one[array_rand($adjective_one)] . ' ' . $adjective_two[array_rand($adjective_two)] . ' ' . $noun[array_rand($noun)];
+		// Build the insult.
+		$insult = array(
+			$adjective_one[mt_rand( 0, count( $adjective_one ) - 1 )],
+			$adjective_two[mt_rand( 0, count( $adjective_two ) - 1 )],
+			$noun[mt_rand( 0, count( $noun ) - 1 )],
+		);
+
+		// Convert the insult into a space-separated string.
+		$insult = implode( ' ', $insult );
 
 		// Prepend 'fucking' to the insult
-		if ( 'yes' === $dirty ) {
-			$output = 'fucking' . $output;
+		if ( 'yes' === $atts['dirty'] ) {
+			$insult = 'fucking ' . $insult;
 		}
 
-		return $output;
+		return $insult;
 
 	}
 
