@@ -435,17 +435,14 @@ if ( ! function_exists( 'insult_generator_shortcode' ) ) {
 
 		}
 
+		$output = $adjective_one[array_rand($adjective_one)] . ' ' . $adjective_two[array_rand($adjective_two)] . ' ' . $noun[array_rand($noun)];
+
 		// Prepend 'fucking' to the insult
-
 		if ( 'yes' === $dirty ) {
-
-			return 'fucking ' . $adjective_one[array_rand($adjective_one)] . ' ' . $adjective_two[array_rand($adjective_two)] . ' ' . $noun[array_rand($noun)];
-
-		} else {
-
-			return $adjective_one[array_rand($adjective_one)] . ' ' . $adjective_two[array_rand($adjective_two)] . ' ' . $noun[array_rand($noun)];
-
+			$output = 'fucking' . $output;
 		}
+
+		return $output;
 
 	}
 
