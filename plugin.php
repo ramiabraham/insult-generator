@@ -5,7 +5,7 @@
  * Description:   Generates insults for you
  * Version:       1.0.1
  * Author:        ramiabraham
- * Contributors:  ramiabraham, fatmedia
+ * Contributors:  ramiabraham, fatmedia, zamoose
  * Author URI:    http://ramiabraham.com
  *
  * This program is free software; you can redistribute it and/or modify
