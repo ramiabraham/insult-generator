@@ -3,6 +3,8 @@ Insult Generator Shortcode
 
 ### Generates insults for you in four flavors:
 
+Here are a few example combinations for each of the four insult types:
+
 * Baroque
 
   * dissembling dread-bolted strumpet
