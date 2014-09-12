@@ -26,6 +26,12 @@ Insult Generator Shortcode
   * fart-sniffing camel-cake week old maggot burger with everything on it and flies on the side
   * two-toned cheesy lewd, crude, rude, bag of pre-chewed food dude
 
+* Python _(Legendary British comedy super-group, not the language)_
+  * empty-headed hypocritical hamster
+  * vacuous whining chemist
+  * loathsome coffee-nosed pervert
+  * silly hypocritical Freemason
+
 ### Usage:
 
 * Install and activate
