@@ -218,6 +218,7 @@ function ra_insult_generator_callback( $atts, $content = null ) {
 			'contrarian',
 			'smelly',
 			'toilet-breathed',
+			'gregarious'
 		);
 
 		$noun = array(
@@ -232,6 +233,7 @@ function ra_insult_generator_callback( $atts, $content = null ) {
 			'clack-dish',
 			'fart-biscuit',
 			'lawyer',
+			'fuckwaffle'
 		);
 
 	}
